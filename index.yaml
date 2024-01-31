@@ -472,7 +472,7 @@ paths:
                       filters:
                         type: object
                         properties:
-                          type: array
+                          type: {}
                           items: { type: object, properties: { type: { type: string, enum: [and, or] }, field: { type: string, enum: [id, name, created_at] }, operator: { type: string, enum: ['<', '<=', '>', '>=', '=', '!=', like, 'not like', ilike, 'not ilike', in, 'not in', 'all in', 'any in'] }, value: { type: string }, nested: { type: array, items: { type: object, properties: { type: { type: string, enum: [and, or] }, field: { type: string, enum: [id, name, created_at] }, operator: { type: string, enum: ['<', '<=', '>', '>=', '=', '!=', like, 'not like', ilike, 'not ilike', in, 'not in', 'all in', 'any in'] }, value: { type: string } } } } } }
                 filters:
                   type: array
@@ -879,7 +879,7 @@ paths:
                       filters:
                         type: object
                         properties:
-                          type: array
+                          type: {}
                           items: { type: object, properties: { type: { type: string, enum: [and, or] }, field: { type: string, enum: [id, name, created_at] }, operator: { type: string, enum: ['<', '<=', '>', '>=', '=', '!=', like, 'not like', ilike, 'not ilike', in, 'not in', 'all in', 'any in'] }, value: { type: string }, nested: { type: array, items: { type: object, properties: { type: { type: string, enum: [and, or] }, field: { type: string, enum: [id, name, created_at] }, operator: { type: string, enum: ['<', '<=', '>', '>=', '=', '!=', like, 'not like', ilike, 'not ilike', in, 'not in', 'all in', 'any in'] }, value: { type: string } } } } } }
                 filters:
                   type: array
@@ -1286,7 +1286,7 @@ paths:
                       filters:
                         type: object
                         properties:
-                          type: array
+                          type: {}
                           items: { type: object, properties: { type: { type: string, enum: [and, or] }, field: { type: string, enum: [id, name, created_at] }, operator: { type: string, enum: ['<', '<=', '>', '>=', '=', '!=', like, 'not like', ilike, 'not ilike', in, 'not in', 'all in', 'any in'] }, value: { type: string }, nested: { type: array, items: { type: object, properties: { type: { type: string, enum: [and, or] }, field: { type: string, enum: [id, name, created_at] }, operator: { type: string, enum: ['<', '<=', '>', '>=', '=', '!=', like, 'not like', ilike, 'not ilike', in, 'not in', 'all in', 'any in'] }, value: { type: string } } } } } }
                 filters:
                   type: array
@@ -1789,7 +1789,7 @@ paths:
                       filters:
                         type: object
                         properties:
-                          type: array
+                          type: {}
                           items: { type: object, properties: { type: { type: string, enum: [and, or] }, field: { type: string, enum: [id, form_id, user_id, created_at] }, operator: { type: string, enum: ['<', '<=', '>', '>=', '=', '!=', like, 'not like', ilike, 'not ilike', in, 'not in', 'all in', 'any in'] }, value: { type: string }, nested: { type: array, items: { type: object, properties: { type: { type: string, enum: [and, or] }, field: { type: string, enum: [id, form_id, user_id, created_at] }, operator: { type: string, enum: ['<', '<=', '>', '>=', '=', '!=', like, 'not like', ilike, 'not ilike', in, 'not in', 'all in', 'any in'] }, value: { type: string } } } } } }
       responses:
         200:
@@ -2220,7 +2220,7 @@ paths:
                       filters:
                         type: object
                         properties:
-                          type: array
+                          type: {}
                           items: { type: object, properties: { type: { type: string, enum: [and, or] }, field: { type: string, enum: [id, name, created_at] }, operator: { type: string, enum: ['<', '<=', '>', '>=', '=', '!=', like, 'not like', ilike, 'not ilike', in, 'not in', 'all in', 'any in'] }, value: { type: string }, nested: { type: array, items: { type: object, properties: { type: { type: string, enum: [and, or] }, field: { type: string, enum: [id, name, created_at] }, operator: { type: string, enum: ['<', '<=', '>', '>=', '=', '!=', like, 'not like', ilike, 'not ilike', in, 'not in', 'all in', 'any in'] }, value: { type: string } } } } } }
       responses:
         200:
@@ -2676,7 +2676,7 @@ paths:
                           - unit
                       filters:
                         type: object
-                        properties: null
+                        properties: {}
   '/v1/units/{unit}/users/{user}':
     get:
       parameters:
@@ -3365,7 +3365,7 @@ paths:
                       filters:
                         type: object
                         properties:
-                          type: array
+                          type: {}
                           items: { type: object, properties: { type: { type: string, enum: [and, or] }, field: { type: string, enum: [id, name, email, email_verified_at, position_id, rank_id, specialty_id, status_id, unit_id, approved, last_seen_at, updated_at, created_at] }, operator: { type: string, enum: ['<', '<=', '>', '>=', '=', '!=', like, 'not like', ilike, 'not ilike', in, 'not in', 'all in', 'any in'] }, value: { type: string }, nested: { type: array, items: { type: object, properties: { type: { type: string, enum: [and, or] }, field: { type: string, enum: [id, name, email, email_verified_at, position_id, rank_id, specialty_id, status_id, unit_id, approved, last_seen_at, updated_at, created_at] }, operator: { type: string, enum: ['<', '<=', '>', '>=', '=', '!=', like, 'not like', ilike, 'not ilike', in, 'not in', 'all in', 'any in'] }, value: { type: string } } } } } }
                 sort:
                   type: array
@@ -3938,7 +3938,7 @@ paths:
                           - unit
                       filters:
                         type: object
-                        properties: null
+                        properties: {}
       responses:
         200:
           description: OK
@@ -4480,7 +4480,7 @@ paths:
                           - document
                       filters:
                         type: object
-                        properties: null
+                        properties: {}
       responses:
         200:
           description: OK
@@ -5021,7 +5021,7 @@ paths:
                           - document
                       filters:
                         type: object
-                        properties: null
+                        properties: {}
   '/v1/users/{user}/combat-records/{combat_record}':
     get:
       parameters:
@@ -5508,7 +5508,7 @@ paths:
                           - qualification.image
                       filters:
                         type: object
-                        properties: null
+                        properties: {}
       responses:
         200:
           description: OK
@@ -6034,7 +6034,7 @@ paths:
                           - rank.image
                       filters:
                         type: object
-                        properties: null
+                        properties: {}
       responses:
         200:
           description: OK
@@ -6575,7 +6575,7 @@ paths:
                           - document
                       filters:
                         type: object
-                        properties: null
+                        properties: {}
   '/v1/users/{user}/service-records/{service_record}':
     get:
       parameters:
@@ -7865,7 +7865,7 @@ paths:
                       filters:
                         type: object
                         properties:
-                          type: array
+                          type: {}
                           items: { type: object, properties: { type: { type: string, enum: [and, or] }, field: { type: string, enum: [id, name, timezone, author_id, created_at] }, operator: { type: string, enum: ['<', '<=', '>', '>=', '=', '!=', like, 'not like', ilike, 'not ilike', in, 'not in', 'all in', 'any in'] }, value: { type: string }, nested: { type: array, items: { type: object, properties: { type: { type: string, enum: [and, or] }, field: { type: string, enum: [id, name, timezone, author_id, created_at] }, operator: { type: string, enum: ['<', '<=', '>', '>=', '=', '!=', like, 'not like', ilike, 'not ilike', in, 'not in', 'all in', 'any in'] }, value: { type: string } } } } } }
                 scopes:
                   type: array
@@ -8367,7 +8367,7 @@ paths:
                       filters:
                         type: object
                         properties:
-                          type: array
+                          type: {}
                           items: { type: object, properties: { type: { type: string, enum: [and, or] }, field: { type: string, enum: [id, name, calendar_id, start, end, created_at] }, operator: { type: string, enum: ['<', '<=', '>', '>=', '=', '!=', like, 'not like', ilike, 'not ilike', in, 'not in', 'all in', 'any in'] }, value: { type: string }, nested: { type: array, items: { type: object, properties: { type: { type: string, enum: [and, or] }, field: { type: string, enum: [id, name, calendar_id, start, end, created_at] }, operator: { type: string, enum: ['<', '<=', '>', '>=', '=', '!=', like, 'not like', ilike, 'not ilike', in, 'not in', 'all in', 'any in'] }, value: { type: string } } } } } }
   '/v1/calendars/{calendar}/events/{event}':
     get:
@@ -8910,7 +8910,7 @@ paths:
                       filters:
                         type: object
                         properties:
-                          type: array
+                          type: {}
                           items: { type: object, properties: { type: { type: string, enum: [and, or] }, field: { type: string, enum: [id, name, calendar_id, start, end, created_at] }, operator: { type: string, enum: ['<', '<=', '>', '>=', '=', '!=', like, 'not like', ilike, 'not ilike', in, 'not in', 'all in', 'any in'] }, value: { type: string }, nested: { type: array, items: { type: object, properties: { type: { type: string, enum: [and, or] }, field: { type: string, enum: [id, name, calendar_id, start, end, created_at] }, operator: { type: string, enum: ['<', '<=', '>', '>=', '=', '!=', like, 'not like', ilike, 'not ilike', in, 'not in', 'all in', 'any in'] }, value: { type: string } } } } } }
       responses:
         200:
@@ -11391,7 +11391,7 @@ paths:
                       filters:
                         type: object
                         properties:
-                          type: array
+                          type: {}
                           items: { type: object, properties: { type: { type: string, enum: [and, or] }, field: { type: string, enum: [id, name, slug, created_at] }, operator: { type: string, enum: ['<', '<=', '>', '>=', '=', '!=', like, 'not like', ilike, 'not ilike', in, 'not in', 'all in', 'any in'] }, value: { type: string }, nested: { type: array, items: { type: object, properties: { type: { type: string, enum: [and, or] }, field: { type: string, enum: [id, name, slug, created_at] }, operator: { type: string, enum: ['<', '<=', '>', '>=', '=', '!=', like, 'not like', ilike, 'not ilike', in, 'not in', 'all in', 'any in'] }, value: { type: string } } } } } }
       responses:
         200:
@@ -11844,7 +11844,7 @@ paths:
                       filters:
                         type: object
                         properties:
-                          type: array
+                          type: {}
                           items: { type: object, properties: { type: { type: string, enum: [and, or] }, field: { type: string, enum: [id, form_id, user_id, created_at] }, operator: { type: string, enum: ['<', '<=', '>', '>=', '=', '!=', like, 'not like', ilike, 'not ilike', in, 'not in', 'all in', 'any in'] }, value: { type: string }, nested: { type: array, items: { type: object, properties: { type: { type: string, enum: [and, or] }, field: { type: string, enum: [id, form_id, user_id, created_at] }, operator: { type: string, enum: ['<', '<=', '>', '>=', '=', '!=', like, 'not like', ilike, 'not ilike', in, 'not in', 'all in', 'any in'] }, value: { type: string } } } } } }
       responses:
         200:
@@ -13935,7 +13935,7 @@ paths:
                       filters:
                         type: object
                         properties:
-                          type: array
+                          type: {}
                           items: { type: object, properties: { type: { type: string, enum: [and, or] }, field: { type: string, enum: [id, name, created_at] }, operator: { type: string, enum: ['<', '<=', '>', '>=', '=', '!=', like, 'not like', ilike, 'not ilike', in, 'not in', 'all in', 'any in'] }, value: { type: string }, nested: { type: array, items: { type: object, properties: { type: { type: string, enum: [and, or] }, field: { type: string, enum: [id, name, created_at] }, operator: { type: string, enum: ['<', '<=', '>', '>=', '=', '!=', like, 'not like', ilike, 'not ilike', in, 'not in', 'all in', 'any in'] }, value: { type: string } } } } } }
                 scopes:
                   type: array
@@ -14341,7 +14341,7 @@ paths:
                           - 'users.*'
                       filters:
                         type: object
-                        properties: null
+                        properties: {}
       responses:
         200:
           description: OK
@@ -15068,7 +15068,7 @@ paths:
                       filters:
                         type: object
                         properties:
-                          type: array
+                          type: {}
                           items: { type: object, properties: { type: { type: string, enum: [and, or] }, field: { type: string, enum: [id, name, created_at] }, operator: { type: string, enum: ['<', '<=', '>', '>=', '=', '!=', like, 'not like', ilike, 'not ilike', in, 'not in', 'all in', 'any in'] }, value: { type: string }, nested: { type: array, items: { type: object, properties: { type: { type: string, enum: [and, or] }, field: { type: string, enum: [id, name, created_at] }, operator: { type: string, enum: ['<', '<=', '>', '>=', '=', '!=', like, 'not like', ilike, 'not ilike', in, 'not in', 'all in', 'any in'] }, value: { type: string } } } } } }
       responses:
         200:
@@ -15495,7 +15495,7 @@ paths:
                       filters:
                         type: object
                         properties:
-                          type: array
+                          type: {}
                           items: { type: object, properties: { type: { type: string, enum: [and, or] }, field: { type: string, enum: [id, name, created_at] }, operator: { type: string, enum: ['<', '<=', '>', '>=', '=', '!=', like, 'not like', ilike, 'not ilike', in, 'not in', 'all in', 'any in'] }, value: { type: string }, nested: { type: array, items: { type: object, properties: { type: { type: string, enum: [and, or] }, field: { type: string, enum: [id, name, created_at] }, operator: { type: string, enum: ['<', '<=', '>', '>=', '=', '!=', like, 'not like', ilike, 'not ilike', in, 'not in', 'all in', 'any in'] }, value: { type: string } } } } } }
       responses:
         200:
@@ -15919,7 +15919,7 @@ paths:
                       filters:
                         type: object
                         properties:
-                          type: array
+                          type: {}
                           items: { type: object, properties: { type: { type: string, enum: [and, or] }, field: { type: string, enum: [id, title, form_id, created_at] }, operator: { type: string, enum: ['<', '<=', '>', '>=', '=', '!=', like, 'not like', ilike, 'not ilike', in, 'not in', 'all in', 'any in'] }, value: { type: string }, nested: { type: array, items: { type: object, properties: { type: { type: string, enum: [and, or] }, field: { type: string, enum: [id, title, form_id, created_at] }, operator: { type: string, enum: ['<', '<=', '>', '>=', '=', '!=', like, 'not like', ilike, 'not ilike', in, 'not in', 'all in', 'any in'] }, value: { type: string } } } } } }
       responses:
         200:
@@ -16338,7 +16338,7 @@ paths:
                       filters:
                         type: object
                         properties:
-                          type: array
+                          type: {}
                           items: { type: object, properties: { type: { type: string, enum: [and, or] }, field: { type: string, enum: [id, name, text_color, bg_color, created_at] }, operator: { type: string, enum: ['<', '<=', '>', '>=', '=', '!=', like, 'not like', ilike, 'not ilike', in, 'not in', 'all in', 'any in'] }, value: { type: string }, nested: { type: array, items: { type: object, properties: { type: { type: string, enum: [and, or] }, field: { type: string, enum: [id, name, text_color, bg_color, created_at] }, operator: { type: string, enum: ['<', '<=', '>', '>=', '=', '!=', like, 'not like', ilike, 'not ilike', in, 'not in', 'all in', 'any in'] }, value: { type: string } } } } } }
       responses:
         200:
@@ -16767,7 +16767,7 @@ paths:
                       filters:
                         type: object
                         properties:
-                          type: array
+                          type: {}
                           items: { type: object, properties: { type: { type: string, enum: [and, or] }, field: { type: string, enum: [id, name, created_at] }, operator: { type: string, enum: ['<', '<=', '>', '>=', '=', '!=', like, 'not like', ilike, 'not ilike', in, 'not in', 'all in', 'any in'] }, value: { type: string }, nested: { type: array, items: { type: object, properties: { type: { type: string, enum: [and, or] }, field: { type: string, enum: [id, name, created_at] }, operator: { type: string, enum: ['<', '<=', '>', '>=', '=', '!=', like, 'not like', ilike, 'not ilike', in, 'not in', 'all in', 'any in'] }, value: { type: string } } } } } }
       responses:
         200:
@@ -17216,7 +17216,7 @@ paths:
                       filters:
                         type: object
                         properties:
-                          type: array
+                          type: {}
                           items: { type: object, properties: { type: { type: string, enum: [and, or] }, field: { type: string, enum: [id, name, created_at] }, operator: { type: string, enum: ['<', '<=', '>', '>=', '=', '!=', like, 'not like', ilike, 'not ilike', in, 'not in', 'all in', 'any in'] }, value: { type: string }, nested: { type: array, items: { type: object, properties: { type: { type: string, enum: [and, or] }, field: { type: string, enum: [id, name, created_at] }, operator: { type: string, enum: ['<', '<=', '>', '>=', '=', '!=', like, 'not like', ilike, 'not ilike', in, 'not in', 'all in', 'any in'] }, value: { type: string } } } } } }
       responses:
         200:
@@ -17943,7 +17943,7 @@ paths:
                       filters:
                         type: object
                         properties:
-                          type: array
+                          type: {}
                           items: { type: object, properties: { type: { type: string, enum: [and, or] }, field: { type: string, enum: [id, name, created_at] }, operator: { type: string, enum: ['<', '<=', '>', '>=', '=', '!=', like, 'not like', ilike, 'not ilike', in, 'not in', 'all in', 'any in'] }, value: { type: string }, nested: { type: array, items: { type: object, properties: { type: { type: string, enum: [and, or] }, field: { type: string, enum: [id, name, created_at] }, operator: { type: string, enum: ['<', '<=', '>', '>=', '=', '!=', like, 'not like', ilike, 'not ilike', in, 'not in', 'all in', 'any in'] }, value: { type: string } } } } } }
       responses:
         200:
@@ -18698,7 +18698,7 @@ paths:
                       filters:
                         type: object
                         properties:
-                          type: array
+                          type: {}
                           items: { type: object, properties: { type: { type: string, enum: [and, or] }, field: { type: string, enum: [id, name, slug, created_at] }, operator: { type: string, enum: ['<', '<=', '>', '>=', '=', '!=', like, 'not like', ilike, 'not ilike', in, 'not in', 'all in', 'any in'] }, value: { type: string }, nested: { type: array, items: { type: object, properties: { type: { type: string, enum: [and, or] }, field: { type: string, enum: [id, name, slug, created_at] }, operator: { type: string, enum: ['<', '<=', '>', '>=', '=', '!=', like, 'not like', ilike, 'not ilike', in, 'not in', 'all in', 'any in'] }, value: { type: string } } } } } }
       responses:
         200:
@@ -19458,7 +19458,7 @@ paths:
                       filters:
                         type: object
                         properties:
-                          type: array
+                          type: {}
                           items: { type: object, properties: { type: { type: string, enum: [and, or] }, field: { type: string, enum: [id, name, created_at] }, operator: { type: string, enum: ['<', '<=', '>', '>=', '=', '!=', like, 'not like', ilike, 'not ilike', in, 'not in', 'all in', 'any in'] }, value: { type: string }, nested: { type: array, items: { type: object, properties: { type: { type: string, enum: [and, or] }, field: { type: string, enum: [id, name, created_at] }, operator: { type: string, enum: ['<', '<=', '>', '>=', '=', '!=', like, 'not like', ilike, 'not ilike', in, 'not in', 'all in', 'any in'] }, value: { type: string } } } } } }
       responses:
         200:
@@ -20185,7 +20185,7 @@ paths:
                       filters:
                         type: object
                         properties:
-                          type: array
+                          type: {}
                           items: { type: object, properties: { type: { type: string, enum: [and, or] }, field: { type: string, enum: [id, name, created_at] }, operator: { type: string, enum: ['<', '<=', '>', '>=', '=', '!=', like, 'not like', ilike, 'not ilike', in, 'not in', 'all in', 'any in'] }, value: { type: string }, nested: { type: array, items: { type: object, properties: { type: { type: string, enum: [and, or] }, field: { type: string, enum: [id, name, created_at] }, operator: { type: string, enum: ['<', '<=', '>', '>=', '=', '!=', like, 'not like', ilike, 'not ilike', in, 'not in', 'all in', 'any in'] }, value: { type: string } } } } } }
       responses:
         200:
@@ -21213,7 +21213,7 @@ paths:
                           - user
                       filters:
                         type: object
-                        properties: null
+                        properties: {}
       responses:
         200:
           description: OK
@@ -21621,7 +21621,7 @@ paths:
                           - user
                       filters:
                         type: object
-                        properties: null
+                        properties: {}
       responses:
         200:
           description: OK
@@ -22009,7 +22009,7 @@ paths:
                           - user
                       filters:
                         type: object
-                        properties: null
+                        properties: {}
       responses:
         200:
           description: OK
@@ -22393,7 +22393,7 @@ paths:
                           - user
                       filters:
                         type: object
-                        properties: null
+                        properties: {}
       responses:
         200:
           description: OK
@@ -22789,7 +22789,7 @@ paths:
                           - user
                       filters:
                         type: object
-                        properties: null
+                        properties: {}
       responses:
         200:
           description: OK
@@ -23177,7 +23177,7 @@ paths:
                           - user
                       filters:
                         type: object
-                        properties: null
+                        properties: {}
       responses:
         200:
           description: OK
@@ -23499,7 +23499,7 @@ paths:
             type: integer
           name: image
           in: path
-          required: false
+          required: true
       responses:
         200:
           description: OK
@@ -23532,7 +23532,7 @@ paths:
             type: integer
           name: image
           in: path
-          required: false
+          required: true
       requestBody:
         content:
           application/json:
@@ -23572,7 +23572,7 @@ paths:
             type: integer
           name: image
           in: path
-          required: false
+          required: true
       responses:
         200:
           description: OK
@@ -23757,7 +23757,7 @@ paths:
             type: integer
           name: image
           in: path
-          required: false
+          required: true
       responses:
         200:
           description: OK
@@ -23790,7 +23790,7 @@ paths:
             type: integer
           name: image
           in: path
-          required: false
+          required: true
       requestBody:
         content:
           application/json:
@@ -23830,7 +23830,7 @@ paths:
             type: integer
           name: image
           in: path
-          required: false
+          required: true
       responses:
         200:
           description: OK
@@ -24020,7 +24020,7 @@ paths:
             type: integer
           name: image
           in: path
-          required: false
+          required: true
       responses:
         200:
           description: OK
@@ -24089,7 +24089,7 @@ paths:
             type: integer
           name: image
           in: path
-          required: false
+          required: true
       responses:
         200:
           description: OK
@@ -24122,7 +24122,7 @@ paths:
             type: integer
           name: image
           in: path
-          required: false
+          required: true
       requestBody:
         content:
           application/json:
@@ -24162,7 +24162,7 @@ paths:
             type: integer
           name: image
           in: path
-          required: false
+          required: true
       responses:
         200:
           description: OK
@@ -24229,7 +24229,7 @@ paths:
             type: integer
           name: image
           in: path
-          required: false
+          required: true
       responses:
         200:
           description: OK
@@ -24262,7 +24262,7 @@ paths:
             type: integer
           name: image
           in: path
-          required: false
+          required: true
       requestBody:
         content:
           application/json:
@@ -24302,7 +24302,7 @@ paths:
             type: integer
           name: image
           in: path
-          required: false
+          required: true
       responses:
         200:
           description: OK
@@ -25171,7 +25171,7 @@ components:
     Field:
       title: Field
       type: object
-      properties: []
+      properties: {}
     FieldResource:
       title: FieldResource
       allOf:
@@ -25264,7 +25264,7 @@ components:
           $ref: '#/components/schemas/NewsfeedItem'
         -
           type: object
-          properties: []
+          properties: {}
     Group:
       title: Group
       type: object
@@ -25459,7 +25459,7 @@ components:
           $ref: '#/components/schemas/Newsfeed'
         -
           type: object
-          properties: []
+          properties: {}
 tags:
   -
     name: Me
