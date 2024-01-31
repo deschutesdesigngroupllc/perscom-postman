@@ -44,7 +44,7 @@ paths:
           description: Unauthenticated
         403:
           description: Unauthorized
-      summary: 'Get a list of users'
+      summary: 'Get information about the authenticated user'
       tags:
         - Me
   /v1/announcements:
