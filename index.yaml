@@ -16,9 +16,7 @@ servers:
     url: 'https://api.staging.perscom.io'
     description: 'Staging Environment'
 security:
-  -
-    ApiKey: []
-  -
+  - ApiKey: []
     PerscomId: []
 paths:
   /v1/me:
@@ -26748,6 +26746,7 @@ components:
       type: http
       scheme: bearer
       description: 'A valid API key that can be created in your PERSCOM.io dashboard.'
+      bearerFormat: JWT
     PerscomId:
       type: apiKey
       in: header
