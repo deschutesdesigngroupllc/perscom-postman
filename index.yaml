@@ -26735,11 +26735,11 @@ components:
         X-Rate-Remaining:
           $ref: '#/components/headers/X-Rate-Remaining'          
   headers:
-    X-RateLimit-Limit:
+    X-Rate-Limit:
       schema:
         type: integer
       description: Request limit per hour.
-    X-RateLimit-Remaining:
+    X-Rate-Remaining:
       schema:
         type: integer
       description: The number of requests left for the time window. 
