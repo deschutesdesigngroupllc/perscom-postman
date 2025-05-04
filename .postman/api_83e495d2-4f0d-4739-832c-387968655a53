@@ -9,13 +9,13 @@ id = 83e495d2-4f0d-4739-832c-387968655a53
 
 [config.relations.collections]
 rootDirectory = postman/collections
-files[] = {"id":"7901103-f6523437-c676-456b-bd94-bbc3bfa9a5e7","path":"PERSCOM Personnel Management System.json","metaData":{"generateCollectionPreferences":"{\"requestNameSource\":\"Fallback\",\"indentCharacter\":\"Space\",\"parametersResolution\":\"Schema\",\"folderStrategy\":\"Tags\",\"includeAuthInfoInExample\":false,\"enableOptionalParameters\":true,\"keepImplicitHeaders\":false,\"includeDeprecated\":false,\"alwaysInheritAuthentication\":false,\"updateCollectionSync\":true,\"requestParametersResolution\":\"Schema\",\"exampleParametersResolution\":\"Schema\"}"}}
+files[] = {"id":"7901103-418eb0ea-d43b-4c1c-a40d-81ee1ca4736c","path":"PERSCOM API.json","metaData":{"generateCollectionPreferences":"{\"requestNameSource\":\"Fallback\",\"indentCharacter\":\"Space\",\"parametersResolution\":\"Schema\",\"folderStrategy\":\"Paths\",\"includeAuthInfoInExample\":true,\"enableOptionalParameters\":true,\"keepImplicitHeaders\":false,\"includeDeprecated\":true,\"alwaysInheritAuthentication\":false,\"updateCollectionSync\":true,\"requestParametersResolution\":\"Schema\",\"exampleParametersResolution\":\"Schema\"}"}}
 
 [config.relations.collections.metaData]
 
 [config.relations.apiDefinition]
-files[] = {"path":"index.yaml","metaData":{}}
+files[] = {"path":"index.json","metaData":{}}
 
 [config.relations.apiDefinition.metaData]
+rootFiles[] = index.json
 type = openapi:3
-rootFiles[] = index.yaml
