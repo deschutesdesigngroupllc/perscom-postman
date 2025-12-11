@@ -1,4 +1,4 @@
-# PERSCOM.io API Postman Collection
+# PERSCOM API Postman Collection
 ---
 The official PERSCOM API Postman collection.
 
